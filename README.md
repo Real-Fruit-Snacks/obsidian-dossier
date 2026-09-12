@@ -19,7 +19,7 @@ Mark a spoiler, an answer, a password, a punchline with `==double equals==` and 
 - Day mode: paper on a desk. Night mode: microfilm — dark paper, cream ink, cream redaction bars
 
 <p align="center">
-  <img src="docs/assets/hero-day.png" alt="A case file in Dossier, day mode, file explorer open" width="100%">
+  <img src="docs/assets/hero-day.png" alt="A case file in Dossier, day mode" width="100%">
 </p>
 <p align="center">
   <img src="docs/assets/hero-night.png" alt="The same case file in night mode" width="100%">
