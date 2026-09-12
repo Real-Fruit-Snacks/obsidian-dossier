@@ -33,7 +33,7 @@ jobs:
           [ -s notes.md ] || echo "See CHANGELOG.md" > notes.md
 
       - name: Attest build provenance
-        uses: actions/attest-build-provenance@v2
+        uses: actions/attest-build-provenance@v4
         with:
           subject-path: |
             theme.css
