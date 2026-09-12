@@ -1,5 +1,10 @@
 # Changelog
 
+## [1.0.1] - 2026-09-12
+
+### Fixed
+- Removed `text-decoration-color` (flagged by the theme linter); strikethroughs use the text colour.
+
 ## [1.0.0] - 2026-09-12
 
 ### Added
@@ -7,4 +12,5 @@
 - Highlights render as redaction bars and reveal on hover (and on the line you're editing).
 - Day mode (paper on a desk) and night mode (microfilm).
 
+[1.0.1]: https://github.com/Real-Fruit-Snacks/obsidian-dossier/releases/tag/1.0.1
 [1.0.0]: https://github.com/Real-Fruit-Snacks/obsidian-dossier/releases/tag/1.0.0

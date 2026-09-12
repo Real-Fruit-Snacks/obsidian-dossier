@@ -226,7 +226,7 @@ body {
 /* inline */
 .markdown-rendered strong, .cm-s-obsidian .cm-strong { font-weight: 700; color: var(--do-ink); }
 .markdown-rendered em, .cm-s-obsidian .cm-em { font-style: italic; color: var(--do-blue); }
-.markdown-rendered del, .cm-s-obsidian .cm-strikethrough { color: var(--do-faint); text-decoration-color: var(--do-red); }
+.markdown-rendered del, .cm-s-obsidian .cm-strikethrough { color: var(--do-faint); }
 .markdown-rendered a, .cm-s-obsidian .cm-hmd-internal-link, .cm-s-obsidian .cm-link .cm-underline { text-decoration: none; border-bottom: 1px dashed var(--do-blue); }
 .markdown-rendered a:hover, .cm-s-obsidian .cm-hmd-internal-link:hover { border-bottom-style: solid; border-bottom-color: var(--do-red); }
 .markdown-rendered a.tag, .cm-s-obsidian .cm-hashtag {
@@ -258,7 +258,7 @@ body {
 .markdown-rendered ol > li::marker { font-family: var(--do-label); color: var(--do-red); }
 input[type="checkbox"] { width: 15px; height: 15px; border: 1.5px solid var(--do-ink); border-radius: 0; background: transparent; margin: 0 8px 0 2px; }
 input[type="checkbox"]:checked { background: var(--do-red); border-color: var(--do-red); }
-.markdown-rendered .task-list-item.is-checked, .cm-s-obsidian .HyperMD-task-line[data-task="x"] { color: var(--do-faint); text-decoration: line-through; text-decoration-color: var(--do-red); }
+.markdown-rendered .task-list-item.is-checked, .cm-s-obsidian .HyperMD-task-line[data-task="x"] { color: var(--do-faint); text-decoration: line-through; }
 
 /* callouts: exhibits and notices */
 .callout {
