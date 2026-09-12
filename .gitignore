@@ -1,0 +1,14 @@
+# Personal plugin settings (Obsidian writes this at runtime)
+data.json
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+*.swp
+*~
+.idea/
+.vscode/
+
+# Node, if a build step is ever added
+node_modules/
+npm-debug.log*

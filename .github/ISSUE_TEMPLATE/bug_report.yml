@@ -1,0 +1,29 @@
+name: Bug report
+description: Something looks wrong
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What looks wrong?
+      description: A screenshot helps a lot.
+    validations:
+      required: true
+  - type: input
+    id: obsidian
+    attributes:
+      label: Obsidian version and platform
+      placeholder: "1.7.4 on Windows / iOS 18"
+    validations:
+      required: true
+  - type: dropdown
+    id: mode
+    attributes:
+      label: Mode
+      options: [Dark, Light, Both]
+    validations:
+      required: true
+  - type: textarea
+    id: plugins
+    attributes:
+      label: Plugins or snippets that might be involved
