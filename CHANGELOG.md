@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.0.2] - 2026-09-17
+
+### Fixed
+- The flourish at the foot of the file explorer (the "Declassified" stamp) sat on top of the list and could cover file names. It now sits in the flow at the end of the list, below the last file, and scrolls with it. The reserved space at the bottom of the explorer is gone.
+- Long callout titles no longer run under the "Urgent" tag.
+
 ## [1.0.1] - 2026-09-12
 
 ### Fixed

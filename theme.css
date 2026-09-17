@@ -187,9 +187,10 @@ body {
 .nav-folder-collapse-indicator, .tree-item-icon.collapse-icon { color: var(--do-folder-label); }
 
 /* DECLASSIFIED stamp at the foot of the explorer */
-.nav-files-container { position: relative; padding-bottom: 96px; }
+
 .nav-files-container::after {
-  content: "Declassified"; position: absolute; left: 50%; bottom: 26px; transform: translateX(-50%) rotate(-6deg); pointer-events: none;
+  content: "Declassified"; display: block; width: max-content; max-width: calc(100% - 24px); margin: 20px auto 24px; transform: rotate(-6deg);
+  pointer-events: none; user-select: none; overflow: hidden;
   border: 3px double var(--do-red); color: var(--do-red); padding: 6px 12px; font-family: var(--do-label); font-weight: 700; font-size: 15px;
   letter-spacing: .22em; text-transform: uppercase; opacity: .8; white-space: nowrap;
 }
@@ -284,6 +285,7 @@ input[type="checkbox"]:checked { background: var(--do-red); border-color: var(--
 .callout[data-callout="warning"], .callout[data-callout="caution"], .callout[data-callout="attention"], .callout[data-callout="danger"], .callout[data-callout="error"], .callout[data-callout="bug"], .callout[data-callout="failure"], .callout[data-callout="fail"], .callout[data-callout="missing"] {
   border-color: var(--do-red); --callout-color: var(--do-red-rgb);
 }
+.callout[data-callout="warning"] .callout-title, .callout[data-callout="danger"] .callout-title, .callout[data-callout="error"] .callout-title { padding-right: 76px; }
 .callout[data-callout="warning"] .callout-title, .callout[data-callout="caution"] .callout-title, .callout[data-callout="attention"] .callout-title, .callout[data-callout="danger"] .callout-title, .callout[data-callout="error"] .callout-title, .callout[data-callout="bug"] .callout-title, .callout[data-callout="failure"] .callout-title { color: var(--do-red); }
 .callout[data-callout="warning"] .callout-title::before, .callout[data-callout="caution"] .callout-title::before, .callout[data-callout="danger"] .callout-title::before, .callout[data-callout="error"] .callout-title::before, .callout[data-callout="bug"] .callout-title::before { content: "Notice —"; }
 .callout[data-callout="warning"]::after, .callout[data-callout="danger"]::after, .callout[data-callout="error"]::after {
